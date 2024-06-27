@@ -55,8 +55,7 @@ local_llm = "mistral"
 import os
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
-os.environ['LANGCHAIN_API_KEY'] = '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'
-
+os.environ['LANGCHAIN_API_KEY'] = ''
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.vectorstores import Chroma
