@@ -5,9 +5,23 @@ description = "LangGraph monorepo"
 authors = []
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
+gpt4all = "^2.7.0"
+langchain-nomic = "^0.1.2"
+langchain-community = "^0.2.5"
+tiktoken = "^0.7.0"
+langchainhub = "^0.1.20"
+chromadb = "^0.5.3"
+langchain = "^0.2.5"
+langgraph = "^0.1.1"
+fake-useragent = "^1.5.1"
+glibc = "^0.6.1"
+user-agents = "^2.2.0"
+langchain-core = "^0.2.9"
+langchain-openai = "^0.1.9"
 
 [tool.poetry.group.docs.dependencies]
 langgraph = { path = "libs/langgraph/", develop = true }
